@@ -39,7 +39,7 @@ function splitLines(text, wordsPerLine) {
 }
 
 const fullText1 = splitLines("Hello bạn nha...", 3);
-const fullText2 = splitLines("Sinh nhật vui vẻ và luôn có nhiều niềm vui nha.", 3);
+const fullText2 = splitLines("Chúc cậu luôn xinh đẹp và nhiều niềm vui.", 3);
 const fullText3 = splitLines("Thật ra tui thích bạn đã khá lâu rồi, nhưng hôm nay mới dám nói...", 3);
 const allTexts = [fullText1, fullText2, fullText3, (splitLines("Thì... Bạn làm người yêu tui nhé!", 3))];
 
@@ -500,3 +500,4 @@ giftBox.addEventListener("click", (e) => {
     startShow();
   }, 1000); // 1s sync with gift fade
 });
+
